@@ -138,7 +138,7 @@ namespace MauiPlanets.Services
                 }
             },
 
-                        new()
+            new()
             {
                 Name = "Neptune",
                 Subtitle = "The god of the sea",
@@ -156,6 +156,80 @@ namespace MauiPlanets.Services
                     "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
                     "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
                     "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "Pluto",
+                Subtitle = "Pluto was once our solar system's ninth planet, but has " +
+                           "been reclassified as a dwarf planet. It's located in the Kuiper Belt.",
+                AccentColorStart = Color.FromArgb("#63510d"),
+                AccentColorEnd = Color.FromArgb("red"),
+                Images= new()
+                {
+                    ""
+                }
+            },
+
+            new()
+            {
+                Name = "Ceres",
+                Subtitle = "Dwarf planet Ceres is the largest object in the asteroid belt between " +
+                           "Mars and Jupiter. It was explored by NASA's Dawn spacecraft.",
+                AccentColorStart = Color.FromArgb("#21311"),
+                AccentColorEnd = Color.FromArgb("#61011d"),
+                Images= new()
+                {
+
+                }
+            },
+
+            new()
+            {
+                Name = "Haumea",
+                Subtitle = "Dwarf planet Haumea was orignally designated 2003 EL61 " +
+                           "(and nicknamed Santa by one discovery team). Haumea is " +
+                           "located in the Kuiper Belt, a doughnut-shaped region of " +
+                           "icy bodies beyond orbit of Neptune.",
+                AccentColorStart = Color.FromArgb("#d6a86b"),
+                AccentColorEnd = Color.FromArgb("#d6be9f"),
+                Images= new()
+                {
+
+                }
+            },
+
+            new()
+            {
+                Name = "Makemake",
+                Subtitle = "Dwarf planet Makemake holds an important place in the " +
+                           "history of the solar system studies because it was one " +
+                           "of the objects - along with Eris - whose discovery prompted " +
+                           "the International Astronomical Union to reconsider the " +
+                           "definition of planet, and create the new group of " +
+                           "dwarf planets",
+                AccentColorStart = Color.FromArgb("#d65e27"),
+                AccentColorEnd = Color.FromArgb("#cf8e70"),
+                Images= new()
+                {
+
+                }
+
+
+            },
+
+            new()
+            {
+                Name = "Eris",
+                Subtitle = "Eris is one of the dwarf planets in our solar system. " +
+                           "It's about the same size as Pluto, but it's three times " +
+                           "farther from the Sun.",
+                AccentColorStart = Color.FromArgb("#d9aded"),
+                AccentColorEnd = Color.FromArgb("#88599e"),
+                Images= new()
+                {
+
                 }
             }
         };
