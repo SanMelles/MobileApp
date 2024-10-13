@@ -162,7 +162,9 @@ namespace MauiPlanets.Services
             new()
             {
                 Name = "Pluto",
-                Subtitle = "Pluto was once our solar system's ninth planet, but has " +
+                Subtitle = "Pluto was once a planet of our solar system.",
+                HeroImage = "",
+                Description = "Pluto was once our solar system's ninth planet, but has " +
                            "been reclassified as a dwarf planet. It's located in the Kuiper Belt.",
                 AccentColorStart = Color.FromArgb("#63510d"),
                 AccentColorEnd = Color.FromArgb("red"),
