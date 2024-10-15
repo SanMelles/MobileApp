@@ -17,9 +17,8 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 Images = new()
                 {
-                    "https://cdn.theatlantic.com/thumbor/D15rQggf6357X1-u6VpTD2N1yQE=/0x27:1041x613/976x549/media/img/mt/2017/04/MercuryImage/original.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/75_mercury_carousel_1.jpg"
+                    "https://cdn.mos.cms.futurecdn.net/w3kqDGBSTqVnNTpd5pajWm.jpg",
+                    "https://ychef.files.bbci.co.uk/624x351/p0hq20x5.png"
                 }
             },
             new()
@@ -32,10 +31,9 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#d17f21"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/143_Venus-800x600.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/147_Hubble_Venus_Clouds-800x600.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/146_venus_carousel_3.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg"
+                    "https://science.nasa.gov/wp-content/uploads/2023/05/688-venus-1200-jpg.webp?w=1024",
+                    "https://planetfacts.org/wp-content/uploads/2023/12/planet_venus.jpg",
+                    "https://www.brproud.com/wp-content/uploads/sites/80/2023/06/AdobeStock_58627825-1.jpeg?w=900"
                 }
             },
             new()
@@ -48,7 +46,7 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#2e97c7"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/68_epicearthmoonstill_800.png",
+                    "https://images.photowall.com/products/71305/planet-earth-at-night.jpg?h=699&q=85",
                     "https://solarsystem.nasa.gov/system/feature_items/images/69_earth_carousel_3.jpg",
                     "https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg?width=778"
                 }
@@ -68,7 +66,7 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#eb3333"),
                 Images = new()
                 {
-                    "https://researchfdi.com/wp-content/uploads/2021/10/8944_1-PIA24546-1280.jpeg",
+                    "https://news.mit.edu/sites/default/files/images/202409/MIT-MissMars-01-press.jpg",
                     "https://www.worldatlas.com/r/w1300-q80/upload/bb/c3/32/shutterstock-1041249343.jpg",
                     "https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg"
                 }
@@ -91,7 +89,7 @@ namespace MauiPlanets.Services
                 {
                     "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
                     "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
+                    "https://nypost.com/wp-content/uploads/sites/2/2021/12/astrology-jupiter-sign-1-copy.jpg?quality=75&strip=all"
                 }
             },
 
@@ -112,8 +110,7 @@ namespace MauiPlanets.Services
                 {
                     "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
                     "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
+                    "https://assets.newatlas.com/dims4/default/1a83d9c/2147483647/strip/true/crop/2000x1125+0+104/resize/1200x675!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F60%2Ffd%2F40cab325436baa5cc37b50deaef5%2Fdepositphotos-287851412-l.jpg"
                 }
             },
 
@@ -134,7 +131,7 @@ namespace MauiPlanets.Services
                 {
                     "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
                     "https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg"
+                    "https://planetfacts.org/wp-content/uploads/2023/12/planet_uranus.jpg"
                 }
             },
 
@@ -155,7 +152,7 @@ namespace MauiPlanets.Services
                 {
                     "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
                     "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                    "https://planetfacts.org/wp-content/uploads/2023/12/planet_neptune.jpg"
                 }
             },
 
@@ -163,34 +160,42 @@ namespace MauiPlanets.Services
             {
                 Name = "Pluto",
                 Subtitle = "Pluto was once a planet of our solar system.",
-                HeroImage = "",
+                HeroImage = "pluto.png",
                 Description = "Pluto was once our solar system's ninth planet, but has " +
                            "been reclassified as a dwarf planet. It's located in the Kuiper Belt.",
                 AccentColorStart = Color.FromArgb("#63510d"),
                 AccentColorEnd = Color.FromArgb("red"),
                 Images= new()
                 {
-                    ""
+                    "https://cdn.mos.cms.futurecdn.net/DoZSMXF87kCuzbymsuEFHo.jpg",
+                    "https://i.natgeofe.com/n/b103fff5-6a84-4d19-b65e-5856998816c3/PIA19952_2x3.jpg",
+                    "https://static.guim.co.uk/sys-images/Guardian/Pix/audio/video/2015/7/15/1436994677583/KP_356428_crop_1200x720.jpg"
                 }
             },
 
             new()
             {
                 Name = "Ceres",
-                Subtitle = "Dwarf planet Ceres is the largest object in the asteroid belt between " +
+                Subtitle = "Ceres is named after the Roman goddess of corn and harvest.",
+                HeroImage = "ceres.png",
+                Description = "Dwarf planet Ceres is the largest object in the asteroid belt between " +
                            "Mars and Jupiter. It was explored by NASA's Dawn spacecraft.",
                 AccentColorStart = Color.FromArgb("#21311"),
                 AccentColorEnd = Color.FromArgb("#61011d"),
                 Images= new()
                 {
-
+                    "https://stsci-opo.org/STScI-01EVSTFG11Z011TWQSTZ4ASBBW.png",
+                    "https://media.azpm.org/master/image/2018/9/20/hero/ceres_eDM0xNE.jpg",
+                    "https://www.livemint.com/lm-img/img/2023/10/19/optimize/Dwarf_planet_Ceres_2015_by_NASA_1697685475381_1697685491708.jpg"
                 }
             },
 
             new()
             {
                 Name = "Haumea",
-                Subtitle = "Dwarf planet Haumea was orignally designated 2003 EL61 " +
+                Subtitle = "Haumea is named after the Hawaiian goddess of fertility.",
+                HeroImage = "haumea.png",
+                Description = "Dwarf planet Haumea was orignally designated 2003 EL61 " +
                            "(and nicknamed Santa by one discovery team). Haumea is " +
                            "located in the Kuiper Belt, a doughnut-shaped region of " +
                            "icy bodies beyond orbit of Neptune.",
@@ -198,14 +203,18 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#d6be9f"),
                 Images= new()
                 {
-
+                    "https://www.bobthealien.co.uk/bobpics/haumeaaigenerated.jpg",
+                    "https://cdn.mos.cms.futurecdn.net/h5P8ZW8QJAscrMQ9r6euoc.jpg",
+                    "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fdedbd0d-a698-4b53-af5d-26c4046fa564/dbrcnsy-ebeff5ce-4619-4cc0-9666-0ceb2a4cb065.png/v1/fill/w_1024,h_696,q_80,strp/haumea_haumea_by_astra_planetshine_dbrcnsy-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njk2IiwicGF0aCI6IlwvZlwvZmRlZGJkMGQtYTY5OC00YjUzLWFmNWQtMjZjNDA0NmZhNTY0XC9kYnJjbnN5LWViZWZmNWNlLTQ2MTktNGNjMC05NjY2LTBjZWIyYTRjYjA2NS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.6-UJixRZG1E8soVMf0QfWPNWt8G8WaDcxOgPm1PMS2Y"
                 }
             },
 
             new()
             {
                 Name = "Makemake",
-                Subtitle = "Dwarf planet Makemake holds an important place in the " +
+                Subtitle = "Makemake is named after the Rapanui god of fertility.",
+                HeroImage = "makemake.png",
+                Description = "Dwarf planet Makemake holds an important place in the " +
                            "history of the solar system studies because it was one " +
                            "of the objects - along with Eris - whose discovery prompted " +
                            "the International Astronomical Union to reconsider the " +
@@ -215,7 +224,9 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#cf8e70"),
                 Images= new()
                 {
-
+                    "https://astronz.nz/cdn/shop/articles/makemake.png?v=1682129134",
+                    "https://cdn.eso.org/images/screen/eso1246a.jpg",
+                    "https://www.iau.org/static/archives/images/screen/iau0806a.jpg"
                 }
 
 
@@ -224,14 +235,18 @@ namespace MauiPlanets.Services
             new()
             {
                 Name = "Eris",
-                Subtitle = "Eris is one of the dwarf planets in our solar system. " +
+                Subtitle = "Eris is the largest dwarf planet.",
+                HeroImage = "eris.png",
+                Description = "Eris is one of the dwarf planets in our solar system. " +
                            "It's about the same size as Pluto, but it's three times " +
                            "farther from the Sun.",
                 AccentColorStart = Color.FromArgb("#d9aded"),
                 AccentColorEnd = Color.FromArgb("#88599e"),
                 Images= new()
                 {
-
+                    "https://cdn.mos.cms.futurecdn.net/ufTfK2rbpQXZBjt2ZPsm57-1200-80.jpg",
+                    "https://www.renderhub.com/3dstudio/dwarf-planet-eris/dwarf-planet-eris-01.jpg",
+                    "https://www.earth.com/assets/_next/image/?url=https%3A%2F%2Fcff2.earth.com%2Fuploads%2F2024%2F02%2F20135637%2FEris_icy-dwarf-planet_kuiper-belt_1m-1400x850.jpg&w=1200&q=75"
                 }
             }
         };
