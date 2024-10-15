@@ -36,14 +36,6 @@ public partial class StartPage : ContentPage
 
     async void ExploreNow_Clicked(System.Object sender, System.EventArgs e)
     {
-        try
-        {
-            await DisplayAlert("Navigation", "Attempting to navigate to PlanetsPage", "OK");
-            await Navigation.PushAsync(new PlanetsPage());
-        }
-        catch (Exception ex)
-        {
-            await DisplayAlert("Error", $"Navigation failed: {ex.Message}", "OK");
-        }
+        Application.Current.MainPage = new NavigationPage(new PlanetsPage());
     }
 }
