@@ -32,10 +32,18 @@ public partial class StartPage : ContentPage
 		parentAnimation.Add(0.7, 1, new Animation(v => imgIntro.Opacity = v, 0, 1, Easing.CubicIn));
 
 		parentAnimation.Commit(this, "TransitionAnimation", 16, 3000, null, null);
-    }
+	}
 
-	async void ExploreNow_Clicked(System.Object sender, System.EventArgs e)
-	{
-        Application.Current.MainPage = new NavigationPage(new PlanetsPage());
+    async void ExploreNow_Clicked(System.Object sender, System.EventArgs e)
+    {
+        try
+        {
+            await DisplayAlert("Navigation", "Attempting to navigate to PlanetsPage", "OK");
+            await Navigation.PushAsync(new PlanetsPage());
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Error", $"Navigation failed: {ex.Message}", "OK");
+        }
     }
 }

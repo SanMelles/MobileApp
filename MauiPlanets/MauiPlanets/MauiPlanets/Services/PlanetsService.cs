@@ -156,6 +156,9 @@ namespace MauiPlanets.Services
                 }
             },
 
+
+
+
             new()
             {
                 Name = "Pluto",
@@ -164,12 +167,10 @@ namespace MauiPlanets.Services
                 Description = "Pluto was once our solar system's ninth planet, but has " +
                            "been reclassified as a dwarf planet. It's located in the Kuiper Belt.",
                 AccentColorStart = Color.FromArgb("#63510d"),
-                AccentColorEnd = Color.FromArgb("red"),
+                AccentColorEnd = Color.FromArgb("FF0000"),
                 Images= new()
                 {
-                    "https://cdn.mos.cms.futurecdn.net/DoZSMXF87kCuzbymsuEFHo.jpg",
-                    "https://i.natgeofe.com/n/b103fff5-6a84-4d19-b65e-5856998816c3/PIA19952_2x3.jpg",
-                    "https://static.guim.co.uk/sys-images/Guardian/Pix/audio/video/2015/7/15/1436994677583/KP_356428_crop_1200x720.jpg"
+                    "https://i.natgeofe.com/n/b103fff5-6a84-4d19-b65e-5856998816c3/PIA19952_2x3.jpg"
                 }
             },
 
@@ -180,13 +181,12 @@ namespace MauiPlanets.Services
                 HeroImage = "ceres.png",
                 Description = "Dwarf planet Ceres is the largest object in the asteroid belt between " +
                            "Mars and Jupiter. It was explored by NASA's Dawn spacecraft.",
-                AccentColorStart = Color.FromArgb("#21311"),
+                AccentColorStart = Color.FromArgb("#021311"),
                 AccentColorEnd = Color.FromArgb("#61011d"),
                 Images= new()
                 {
                     "https://stsci-opo.org/STScI-01EVSTFG11Z011TWQSTZ4ASBBW.png",
-                    "https://media.azpm.org/master/image/2018/9/20/hero/ceres_eDM0xNE.jpg",
-                    "https://www.livemint.com/lm-img/img/2023/10/19/optimize/Dwarf_planet_Ceres_2015_by_NASA_1697685475381_1697685491708.jpg"
+                    "https://media.azpm.org/master/image/2018/9/20/hero/ceres_eDM0xNE.jpg"
                 }
             },
 
@@ -203,7 +203,6 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#d6be9f"),
                 Images= new()
                 {
-                    "https://www.bobthealien.co.uk/bobpics/haumeaaigenerated.jpg",
                     "https://cdn.mos.cms.futurecdn.net/h5P8ZW8QJAscrMQ9r6euoc.jpg",
                     "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fdedbd0d-a698-4b53-af5d-26c4046fa564/dbrcnsy-ebeff5ce-4619-4cc0-9666-0ceb2a4cb065.png/v1/fill/w_1024,h_696,q_80,strp/haumea_haumea_by_astra_planetshine_dbrcnsy-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njk2IiwicGF0aCI6IlwvZlwvZmRlZGJkMGQtYTY5OC00YjUzLWFmNWQtMjZjNDA0NmZhNTY0XC9kYnJjbnN5LWViZWZmNWNlLTQ2MTktNGNjMC05NjY2LTBjZWIyYTRjYjA2NS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.6-UJixRZG1E8soVMf0QfWPNWt8G8WaDcxOgPm1PMS2Y"
                 }
@@ -220,13 +219,12 @@ namespace MauiPlanets.Services
                            "the International Astronomical Union to reconsider the " +
                            "definition of planet, and create the new group of " +
                            "dwarf planets",
-                AccentColorStart = Color.FromArgb("#d65e27"),
+                AccentColorStart = Color.FromArgb("#ba775d"),
                 AccentColorEnd = Color.FromArgb("#cf8e70"),
                 Images= new()
                 {
                     "https://astronz.nz/cdn/shop/articles/makemake.png?v=1682129134",
-                    "https://cdn.eso.org/images/screen/eso1246a.jpg",
-                    "https://www.iau.org/static/archives/images/screen/iau0806a.jpg"
+                    "https://cdn.eso.org/images/screen/eso1246a.jpg"
                 }
 
 
@@ -240,13 +238,12 @@ namespace MauiPlanets.Services
                 Description = "Eris is one of the dwarf planets in our solar system. " +
                            "It's about the same size as Pluto, but it's three times " +
                            "farther from the Sun.",
-                AccentColorStart = Color.FromArgb("#d9aded"),
-                AccentColorEnd = Color.FromArgb("#88599e"),
+                AccentColorStart = Color.FromArgb("#949de5"),
+                AccentColorEnd = Color.FromArgb("#4b4b4b"),
                 Images= new()
                 {
                     "https://cdn.mos.cms.futurecdn.net/ufTfK2rbpQXZBjt2ZPsm57-1200-80.jpg",
-                    "https://www.renderhub.com/3dstudio/dwarf-planet-eris/dwarf-planet-eris-01.jpg",
-                    "https://www.earth.com/assets/_next/image/?url=https%3A%2F%2Fcff2.earth.com%2Fuploads%2F2024%2F02%2F20135637%2FEris_icy-dwarf-planet_kuiper-belt_1m-1400x850.jpg&w=1200&q=75"
+                    "https://www.renderhub.com/3dstudio/dwarf-planet-eris/dwarf-planet-eris-01.jpg"
                 }
             }
         };
